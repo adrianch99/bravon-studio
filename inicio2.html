@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Altum Studio - Diseño Gráfico & Web Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">Bravon Studio</div>
+        <nav>
+            <a href="#servicios">Servicios</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Elevamos tu marca con diseño y tecnología</h1>
+            <p>En Altum Studio creamos diseños gráficos, páginas web y publicidad digital que transmiten elegancia,
+                modernidad y confianza.</p>
+            <a href="#contacto" class="btn">Contáctanos</a>
+
+        </section>
+
+        <!-- Separador dorado decorativo -->
+        <div style="text-align: center; margin: 80px auto 40px;">
+            <svg width="240" height="12" viewBox="0 0 200 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="2" rx="1" fill="#C99A6B" opacity="0.6" />
+                <circle cx="100" cy="6" r="6" fill="#C99A6B" />
+            </svg>
+        </div>
+
+        <section id="servicios" class="servicios">
+            <div class="card">
+                <div class="icono">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 3H21V21H3V3Z" stroke="#144D4D" stroke-width="2" />
+                        <path d="M8 8H16V16H8V8Z" fill="#C99A6B" />
+                    </svg>
+                </div>
+                <h3>Diseño Gráfico</h3>
+                <p>Logos, branding corporativo, material publicitario y más para comunicar la esencia de tu marca.</p>
+            </div>
+            <div class="card">
+                <div class="icono">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 4H20V20H4V4Z" stroke="#144D4D" stroke-width="2" />
+                        <path d="M4 9H20" stroke="#C99A6B" stroke-width="2" />
+                        <circle cx="8" cy="6.5" r="1" fill="#C99A6B" />
+                        <circle cx="12" cy="6.5" r="1" fill="#C99A6B" />
+                        <circle cx="16" cy="6.5" r="1" fill="#C99A6B" />
+                    </svg>
+                </div>
+                <h3>Desarrollo Web</h3>
+                <p>Creación de sitios web modernos, responsivos y fáciles de usar, adaptados a tu negocio.</p>
+            </div>
+            <div class="card">
+                <div class="icono">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3 6H21" stroke="#144D4D" stroke-width="2" />
+                        <path d="M3 12H21" stroke="#C99A6B" stroke-width="2" />
+                        <path d="M3 18H21" stroke="#144D4D" stroke-width="2" />
+                    </svg>
+                </div>
+                <h3>Publicidad Digital</h3>
+                <p>Estrategias efectivas para aumentar la visibilidad y atraer clientes con campañas en redes sociales y
+                    Google.</p>
+            </div>
+        </section>
+
+        <!-- Separador dorado decorativo -->
+        <div style="text-align: center; margin: 80px auto 40px;">
+            <svg width="240" height="12" viewBox="0 0 200 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="200" height="2" rx="1" fill="#C99A6B" opacity="0.6" />
+                <circle cx="100" cy="6" r="6" fill="#C99A6B" />
+            </svg>
+        </div>
+
+        <section id="contacto" class="contacto">
+            <div class="contacto-contenedor">
+                <h2>Contáctanos</h2>
+                <p>¿Listo para llevar tu marca al siguiente nivel? Completa el formulario y te responderemos muy pronto.
+                </p>
+                <form class="formulario-contacto" action="https://formsubmit.co/charrisadrianjose@gmail.com"
+                    method="POST">
+                    <input type="hidden" name="_next" value="gracias.html">
+                    <input type="hidden" name="_redirect" value="gracias.html">
+                    <input type="text" name="_honey" style="display:none">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="Nuevo mensaje desde Altum Studio">
+                    <input type="hidden" name="_template" value="box">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required />
+                    </div>
+                    <div class="campo">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required />
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos sobre tu proyecto..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar mensaje</button>
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; 2025 Altum Studio. Todos los derechos reservados.
+    </footer>
+
+</body>
+
+</html>
