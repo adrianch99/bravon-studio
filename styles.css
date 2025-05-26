@@ -89,6 +89,7 @@ main {
     color: var(--verde-azulado);
     border-radius: 18px;
     margin-top: 200px;
+    border: 2px solid var(--dorado-calido);
 }
 
 .hero h1 {
@@ -126,6 +127,15 @@ main {
     width: 100%;
 }
 
+.btnHero {
+    color: var(--verde-azulado);
+    font-size: 2.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 1.1px;
+    text-decoration: none;
+}
+
 .btn:hover {
     background: linear-gradient(135deg, var(--dorado-calido), #b78745);
     color: var(--verde-azulado);
@@ -140,7 +150,6 @@ section.servicios {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
 }
 
 .card {
@@ -209,6 +218,8 @@ footer {
     padding: 40px 10px;
     position: relative;
     border-radius: 20px;
+    border: 2px solid var(--dorado-calido);
+
 }
 
 .contacto h2 {
@@ -282,17 +293,81 @@ footer {
         margin: 60px auto;
         padding: 0 20px;
     }
+
 }
 
 
 @media (max-width: 480px) {
     header {
         flex-direction: column;
-        gap: 20px;
-        padding: 20px 30px;
+        gap: 10px;
+        padding: 6px 1px;
     }
 
     nav {
         text-align: center;
+    }
+
+    main {
+        padding: 0 1px;
+        margin: 6px auto;
+    }
+
+    .hero {
+        padding: 8px 0;
+        border-radius: 0;
+        margin-top: 150px;
+        border-right: none;
+        border-left: none;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 0.85rem;
+        padding: 0 1px;
+    }
+
+    .btn{
+        font-size: 0.95rem;
+        padding: 10px 6px;
+        margin-bottom: 20px;
+    }
+
+    .btnHero {
+        font-size: 1rem;
+    }
+
+    .card {
+        width: 100%;
+        min-width: unset;
+        max-width: 100%;
+        margin-bottom: 10px;
+        padding: 10px 2px;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        margin-bottom: 40px;
+    }
+
+    section.servicios {
+        margin-top: 12px;
+        gap: 4px;
+    }
+
+    .contacto {
+        margin-top: 12px;
+        padding: 6px 1px;
+        border-radius: 8px;
+    }
+
+    .contacto h2 {
+        font-size: 2rem;
+    }
+
+    .formulario-contacto {
+        padding: 0;
     }
 }
