@@ -118,9 +118,6 @@ main {
     border: none;
     border-radius: 36px;
     cursor: pointer;
-    box-shadow:
-        0 6px 16px rgba(129, 199, 176, 0.7),
-        0 0 12px var(--verde-menta);
     transition: all 0.35s ease;
     letter-spacing: 1.1px;
     text-decoration: none;
@@ -316,7 +313,7 @@ footer {
     .hero {
         padding: 8px 0;
         border-radius: 0;
-        margin-top: 150px;
+        margin-top: 180px;
         border-right: none;
         border-left: none;
     }
@@ -326,7 +323,7 @@ footer {
     }
 
     .hero p {
-        font-size: 0.85rem;
+        font-size: 1rem;
         padding: 0 1px;
     }
 
@@ -334,6 +331,8 @@ footer {
         font-size: 0.95rem;
         padding: 10px 6px;
         margin-bottom: 20px;
+        width: 50%;
+        margin-left: 80px;
     }
 
     .btnHero {
